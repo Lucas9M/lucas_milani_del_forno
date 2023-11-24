@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #cecccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    min-height: 80vh;
+
+}
+
+.cabecalho {
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid #1A1A1A; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    min-height: 5vh;
+    margin: 10px;
+    min-height: 5vh;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-pagina {
+    font-family: 'Courier New', Courier, monospace;
+    color: #1A1A1A;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.conteudo-sobre {
+    padding: 20px;
+
+}
+
+.card-sobre {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-missao,
+.card-visao {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.card-missao h2,
+.card-visao h2 {
+    color: #070707;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.FinalDaPag {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    min-height: 5vh;
+    padding-top: 10px;
+}
+
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.card-valores{
+    
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+
+}
+
+
+
+
+
+.card-missao p,
+.card-visao p {
+    font-size: 16px;
+}
+
+
+ul li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+
+
+
+
+

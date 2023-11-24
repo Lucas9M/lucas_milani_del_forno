@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRINCIPAL</title>
+  <link rel="stylesheet" href="styleIndex.css" />
+  <script src="seuscript.js" defer></script>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h1>MILANI MARCENARIA</h1>
+    <nav class="cabecalho-menu">
+      <a class="menu-pagina" href="index.html">HOME</a>
+      <a class="menu-pagina" href="sobre v1.html">SOBRE</a>
+      <a class="menu-pagina" href="contact.html">CONTATO</a>
+      <a class="menu-pagina" href="relatorio.html">RELATÓRIOS</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <h1 class="centerH1">Conheça melhor nossa linha de produtos!</h1>
+    <section class="conteudo-principal">
+
+      <div class="produto" id="criadoMudo">
+        <div class="conteudo-principal-img">
+          <img src="./Images/CriadoMudo/c1.jpg" alt="CRIADOMUDO" width="320" height="320" />
+          <p>Criado Mudo</p>
+          <p class="preco"><b>R$310,50</b></p>
+          <button id="button1" class="comprar" type="button" data-category="criadoMudo">COMPRAR</button>
+        </div>
+      </div>
+
+      <div class="produto" id="Escrivaninha">
+        <div class="conteudo-principal-img">
+          <img src="./Images/Escrivaninha/E1.jpg" alt="ESCRIVANINHA" width="320" height="320" />
+          <p>Escrivaninha</p>
+          <p class="preco"><b>R$479,99</b></p>
+          <button id="button2" class="comprar" type="button" data-category="escrivaninha">COMPRAR</button>
+        </div>
+      </div>
+
+      <div class="produto" id="nichos">
+        <div class="conteudo-principal-img">
+          <img src="./Images/Nicho/N1.jpg" alt="NICHO" width="320" height="320" />
+          <p>Nicho</p>
+          <p class="preco"><b>R$230,90</b></p>
+          <button id="button3" class="comprar" type="button" data-category="nicho">COMPRAR</button>
+        </div>
+      </div>
+
+    </section>
+
+    <aside id="desconto-info" style="display: none;">
+      <h2>Desconto Especial!</h2>
+      <p>Você recebeu um desconto de <span id="desconto-porcentagem"></span> na sua compra!</p>
+      <p>Total da Compra: R$<span id="total-compra"></span></p>
+    </aside>
+  </main>
+
+  <footer class="FinalDaPag">
+    <p><sup>&reg;</sup> 2023 - Todos os direitos reservados</p>
+  </footer>
+</body>
+
+</html>

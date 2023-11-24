@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #cecccc;
+}
+
+.cabecalho {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    min-height: 5vh;
+    border-bottom: 0.2px solid #1A1A1A;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-pagina {
+    font-family: 'Courier New', Courier, monospace;
+    color: #1A1A1A;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.conteudo {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 0.2px solid #1A1A1A;
+    margin-bottom: 50px;
+    min-height: 85vh;
+}
+
+.centerH1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.conteudo-principal {
+    display: flex;
+    padding-top: 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.produto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comprar {
+    background-color: #070707;
+    color: rgb(243, 234, 234);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.comprar:hover {
+    background: #53a7ea;
+}
+
+.conteudo-principal-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.conteudo-principal-img img {
+    max-width: 320px;
+    height: 320px;
+}
+
+#desconto-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.FinalDaPag {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    min-height: 5vh;
+}
+
+.FinalDaPag p {
+    font-size: 14px;
+}
+
+.FinalDaPag a {
+    text-decoration: none;
+    color: #070707;
+}
